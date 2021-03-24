@@ -26,6 +26,11 @@ exec "hi Constant       cterm=NONE   ctermfg=97  ctermbg=NONE"
 exec "hi Special        cterm=NONE   ctermfg=246 ctermbg=NONE"
 exec "hi VertSplit      cterm=NONE   ctermfg=246 ctermbg=234"
 
+" GitGutter support
+highlight GitGutterAdd    ctermfg=214
+highlight GitGutterChange ctermfg=152
+highlight GitGutterDelete ctermfg=129
+
 "TODO
 " exec "hi IncSearch      cterm=BOLD   ctermfg= ctermbg=NONE"
 " exec "hi Search         cterm=NONE   ctermfg= ctermbg=NONE"
